@@ -2,6 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <title>vue-hello</title>
   </head>
@@ -10,6 +17,7 @@
     <div id="root">
       <h1>{{ messagge }}</h1>
       <img v-bind:src="img" alt="Vue">
+      <a v-bind:href="link">Vue.js</a>
     </div>
 
     <script src="js/script.js" charset="utf-8"></script>

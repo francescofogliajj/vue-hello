@@ -8,7 +8,8 @@ var app = new Vue(
 
     data: {
       messagge: "Hello World!",
-      img: "https://vuejs.org/images/logo.png"
+      img: "https://vuejs.org/images/logo.png",
+      link: "https://vuejs.org/"
     }
 
   }
